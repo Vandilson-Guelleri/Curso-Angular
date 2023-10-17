@@ -7,7 +7,7 @@ import { Component, OnInit, DoCheck,
 @Component({
   selector: 'app-root',
   template:`
-  <app-data-biding></app-data-biding>
+  <app-diretivas-estruturais></app-diretivas-estruturais>
   <router-outlet></router-outlet>`
   
 })
