@@ -9,6 +9,14 @@ export class DiretivasEstruturaisComponent {
 
   public condition: boolean = true;
 
+  public nome:string = 'Vandilson';
+
+  public list: Array<{nome:string}> = [
+    {nome: "Vandilson"},
+    {nome: "Dilso"}
+
+  ];
+
   ngOnInit():void{
 
   setInterval(()=>{
@@ -19,4 +27,9 @@ export class DiretivasEstruturaisComponent {
     }
   }, 2000)
 }
+
+  public onClickAddList(){
+    this.list.push({nome: "Nay"})
+  }
+
 }
